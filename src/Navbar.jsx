@@ -1,4 +1,5 @@
 import React from "react";
+import Navlogo from "../src/images/logo.png";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,15 +11,9 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
-                <img
-              alt=""
-              src="https://www.dypiu.ac.in/templates/dypiu/images/logo.png"
-              width="150"
-             
-              // className="d-inline-block align-top"
-            />
-                  </NavLink>
-                  <button1
+                  <img alt="" src={Navlogo} width="150" />
+                </NavLink>
+                <button1
                   className="navbar-toggler"
                   type="button1"
                   data-toggle="collapse"
@@ -51,7 +46,7 @@ const Navbar = () => {
                         className="nav-link"
                         to="/classroom"
                       >
-                         Classroom
+                        Classroom
                       </NavLink>
                     </li>
                     <li className="nav-item">
@@ -73,7 +68,7 @@ const Navbar = () => {
                         Calender
                       </NavLink>
                     </li>
-{/* 
+
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menu_active"
@@ -82,16 +77,15 @@ const Navbar = () => {
                       >
                         Faculty
                       </NavLink>
-                    </li> */}
-
+                    </li>
 
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menu_active"
                         className="nav-link"
-                        to="/contact"
+                        to="/lostandfound"
                       >
-                        Contact
+                        Lost and Found
                       </NavLink>
                     </li>
                   </ul>
