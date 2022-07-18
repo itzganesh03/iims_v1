@@ -6,7 +6,7 @@ import './home.css';
 const Navbar = () => {
   return (
     <>
-    <div className="blue-bar"></div>
+    <div className="blue-bar"/>
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10">

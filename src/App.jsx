@@ -26,7 +26,6 @@ const App = () => {
   return (
     !loading && (
     <>
-    
       <Navbar />
       <Switch>
       <Route exact path="/" component={Home} />
