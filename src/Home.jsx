@@ -9,9 +9,9 @@ const Home = () => {
       <div>
         <div className="container-flex">
           <Carousel>
-            <Carousel.Item style={{ height: "300px" }}>
+            <Carousel.Item style={{ height: "531px" }}>
               <img
-                style={{ height: "300px" }}
+                style={{ height: "531px" }}
                 className="d-block w-100"
                 src={web}
               />
@@ -19,9 +19,9 @@ const Home = () => {
                 <h3>First Demo </h3>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item style={{ height: "300px" }}>
+            <Carousel.Item style={{ height: "531px" }}>
               <img
-                style={{ height: "300px" }}
+                style={{ height: "531px" }}
                 className="d-block w-100"
                 src={web1}
               />
@@ -29,9 +29,9 @@ const Home = () => {
                 <h3>Second Demo</h3>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item style={{ height: "300px" }}>
+            <Carousel.Item style={{ height: "531px" }}>
               <img
-                style={{ height: "300px" }}
+                style={{ height: "531px" }}
                 className="d-block w-100"
                 src={web2}
               />
