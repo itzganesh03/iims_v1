@@ -65,7 +65,7 @@ const Footer = () => {
                   <ul className="list-unstyled">
                     <li>
                       <a href="#!" className="text-white">
-                        classNameroom
+                        Classroom
                       </a>
                     </li>
                     <li>

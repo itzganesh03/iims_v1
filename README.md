@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/itzganesh03/React-Responsive-Mobile-View.git).
 ## Update Link:- https://iims-dypiu.netlify.app/
 
+## Bootstrap: https://getbootstrap.com/docs/4.0/utilities/sizing/
+
 ## Available Scripts
 
 In the project directory, you can run:

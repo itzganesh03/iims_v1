@@ -1,10 +1,12 @@
 import React from "react";
 import Navlogo from "../src/images/logo.png";
 import { NavLink } from "react-router-dom";
+import './home.css';
 
 const Navbar = () => {
   return (
     <>
+    <div className="container-fluid blue-bar"></div>
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
