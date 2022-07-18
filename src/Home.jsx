@@ -1,7 +1,7 @@
 import React from "react";
 import web from "../src/images/home-slider1.png";
 import web1 from "../src/images/home-slider2.png";
-import web2 from "../src/images/home-banner-03.jpeg";
+import web2 from "../src/images/home-banner-04.jpeg";
 import Carousel from "react-bootstrap/Carousel";
 const Home = () => {
   return (
