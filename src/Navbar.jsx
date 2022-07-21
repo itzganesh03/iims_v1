@@ -6,10 +6,10 @@ import './home.css';
 const Navbar = () => {
   return (
     <>
-    <div className="container-fluid blue-bar"></div>
+    <div className="blue-bar"/>
       <div className="container-fluid nav_bg">
         <div className="row">
-          <div className="col-10 mx-auto">
+          <div className="col-10">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
