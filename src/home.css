@@ -4388,6 +4388,15 @@ fieldset:disabled .btn {
     background-size: 100%
 }
 
+.fabell{
+    position: absolute;
+    width: 63px;
+    height: 200px;
+    left: 57px;
+    top: 152px;
+
+    /* background: url(bell (3).png); */
+}
 .navbar-nav-scroll {
     max-height: var(--bs-scroll-height, 75vh);
     overflow-y: auto

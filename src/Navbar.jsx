@@ -1,6 +1,10 @@
 import React from "react";
 import Navlogo from "../src/images/logo.png";
+import UserLogo from "../src/images/user.png";
+import Notifaction from "../src/images/bell.png"
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBell } from '@fortawesome/free-solid-svg-icons'
 import './home.css';
 
 const Navbar = () => {
@@ -13,6 +17,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
+                <img src={Notifaction} style={{position: "relative" , margin: "15px" , height: "35px" , width: "35px" }}/>
                   <img alt="" src={Navlogo} width="150" />
                 </NavLink>
                 <button1
@@ -88,6 +93,16 @@ const Navbar = () => {
                         to="/lostandfound"
                       >
                         Lost and Found
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        activeClassName="menu_active"
+                        className="nav-link"
+                        img src={Navlogo}
+                        to="/loginuser"
+                      >
+                        <img src={UserLogo} style={{ height: "35px" , width: "35px" }}/>
                       </NavLink>
                     </li>
                   </ul>

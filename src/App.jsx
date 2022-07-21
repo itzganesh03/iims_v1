@@ -10,6 +10,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import LostandFound from "./LostandFound";
 import { Switch, Route, Redirect } from "react-router-dom";
+import Loginuser from "./Loginuser";
 
 
 //Start Preloader for Welcome Screen
@@ -34,6 +35,7 @@ const App = () => {
         <Route exact path="/faculty" component={Faculty} />
         <Route exact path="/exam" component={Exam} />
         <Route exact path="/lostandfound" component={LostandFound} />
+        <Route exact path="/loginuser" component={Loginuser} />
         <Redirect to="/" />
       </Switch>
       <Footer />

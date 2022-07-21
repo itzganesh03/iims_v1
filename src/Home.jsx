@@ -40,7 +40,7 @@ const Home = () => {
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
-          </div>
+          </div> 
         </div>
     </>
   );
