@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.514af7a0.chunk.css",
-    "main.js": "/static/js/main.54c799a0.chunk.js",
-    "main.js.map": "/static/js/main.54c799a0.chunk.js.map",
+    "main.css": "/static/css/main.9a921e50.chunk.css",
+    "main.js": "/static/js/main.975fe0a8.chunk.js",
+    "main.js.map": "/static/js/main.975fe0a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fe128b73.js",
     "runtime-main.js.map": "/static/js/runtime-main.fe128b73.js.map",
     "static/css/2.0520b0af.chunk.css": "/static/css/2.0520b0af.chunk.css",
-    "static/js/2.72e357de.chunk.js": "/static/js/2.72e357de.chunk.js",
-    "static/js/2.72e357de.chunk.js.map": "/static/js/2.72e357de.chunk.js.map",
+    "static/js/2.0b1895a3.chunk.js": "/static/js/2.0b1895a3.chunk.js",
+    "static/js/2.0b1895a3.chunk.js.map": "/static/js/2.0b1895a3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.903971dc9c69853b3a03590983c9b196.js": "/precache-manifest.903971dc9c69853b3a03590983c9b196.js",
+    "precache-manifest.b434ecd54cab1eda906376d9cf3190fc.js": "/precache-manifest.b434ecd54cab1eda906376d9cf3190fc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0520b0af.chunk.css.map": "/static/css/2.0520b0af.chunk.css.map",
-    "static/css/main.514af7a0.chunk.css.map": "/static/css/main.514af7a0.chunk.css.map",
-    "static/js/2.72e357de.chunk.js.LICENSE.txt": "/static/js/2.72e357de.chunk.js.LICENSE.txt",
+    "static/css/main.9a921e50.chunk.css.map": "/static/css/main.9a921e50.chunk.css.map",
+    "static/js/2.0b1895a3.chunk.js.LICENSE.txt": "/static/js/2.0b1895a3.chunk.js.LICENSE.txt",
+    "static/media/college.jpg": "/static/media/college.10c43705.jpg",
+    "static/media/examination.jpg": "/static/media/examination.dc02c7e3.jpg",
+    "static/media/help.jpg": "/static/media/help.e543d979.jpg",
     "static/media/home-banner-04.jpeg": "/static/media/home-banner-04.e5ce76ed.jpeg",
     "static/media/home-slider1.png": "/static/media/home-slider1.dab5bfc8.png",
-    "static/media/home-slider2.png": "/static/media/home-slider2.3768aa3e.png"
+    "static/media/home-slider2.png": "/static/media/home-slider2.3768aa3e.png",
+    "static/media/timetable.jpg": "/static/media/timetable.9718c692.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.fe128b73.js",
     "static/css/2.0520b0af.chunk.css",
-    "static/js/2.72e357de.chunk.js",
-    "static/css/main.514af7a0.chunk.css",
-    "static/js/main.54c799a0.chunk.js"
+    "static/js/2.0b1895a3.chunk.js",
+    "static/css/main.9a921e50.chunk.css",
+    "static/js/main.975fe0a8.chunk.js"
   ]
 }

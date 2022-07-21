@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import LostandFound from "./LostandFound";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Loginuser from "./Loginuser";
+import Bluebar from "./Bluebar";
 
 
 //Start Preloader for Welcome Screen
@@ -27,6 +28,7 @@ const App = () => {
   return (
     !loading && (
     <>
+      <Bluebar/>
       <Navbar />
       <Switch>
       <Route exact path="/" component={Home} />

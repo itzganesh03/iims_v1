@@ -7,11 +7,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell } from '@fortawesome/free-solid-svg-icons'
 import './home.css';
 
+
 const Navbar = () => {
   return (
     <>
-    <div className="blue-bar"/>
-      <div className="container-fluid nav_bg">
+
         <div className="row">
           <div className="col-10">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -99,7 +99,6 @@ const Navbar = () => {
                       <NavLink
                         activeClassName="menu_active"
                         className="nav-link"
-                        img src={Navlogo}
                         to="/loginuser"
                       >
                         <img src={UserLogo} style={{ height: "35px" , width: "35px" }}/>
@@ -111,7 +110,7 @@ const Navbar = () => {
             </nav>
           </div>
         </div>
-      </div>
+      
     </>
   );
 };
