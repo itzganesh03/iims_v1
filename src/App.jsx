@@ -14,6 +14,7 @@ import Loginuser from "./Loginuser";
 import Bluebar from "./Bluebar";
 
 
+
 //Start Preloader for Welcome Screen
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -25,11 +26,19 @@ const App = () => {
     }, 3000);
   }
   //End Preloader for Welcome Screen
+
+  // Home Login Start
+  
+
+
+  // Home Login End
+
   return (
     !loading && (
     <>
+      
       <Bluebar/>
-      <Navbar />
+      <Navbar/>
       <Switch>
       <Route exact path="/" component={Home} />
         <Route exact path="/calender" component={Calender} />

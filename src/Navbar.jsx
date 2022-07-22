@@ -3,12 +3,15 @@ import Navlogo from "../src/images/logo.png";
 import UserLogo from "../src/images/user.png";
 import Notifaction from "../src/images/bell.png"
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell } from '@fortawesome/free-solid-svg-icons'
+// .
+
 import './home.css';
 
 
 const Navbar = () => {
+
+ 
+
   return (
     <>
 
@@ -96,13 +99,17 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink
+                      {/* <NavLink
                         activeClassName="menu_active"
                         className="nav-link"
-                        to="/loginuser"
+                        to="#"
                       >
-                        <img src={UserLogo} style={{ height: "35px" , width: "35px" }}/>
-                      </NavLink>
+                        <img onClick={handleClick} src={UserLogo} style={{ height: "35px" , width: "35px" }}/>
+                      </NavLink> */}
+
+                <NavLink className="navbar-brand" to='/loginuser'>
+                <img src={UserLogo} style={{position: "relative" , margin: "3px" , height: "35px" , width: "35px" }}/>
+               </NavLink>
                     </li>
                   </ul>
                 </div>
