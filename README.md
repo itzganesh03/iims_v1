@@ -1,6 +1,6 @@
-# iims_v1_temp_branch
+# iims_v1_Master_branch
 This project was bootstrapped with [Create React App](https://github.com/itzganesh03/React-Responsive-Mobile-View.git).
-## Live Demo Link:- https://iims-dypiu.netlify.app/ {TEMP Branch}
+## Live Demo Link:- https://iims-dypiu.netlify.app/ {MasterBranch}
 
 ## Bootstrap References: https://getbootstrap.com/docs/4.0/utilities/sizing/
 
