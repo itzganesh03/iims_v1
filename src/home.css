@@ -4371,6 +4371,16 @@ fieldset:disabled .btn {
     text-decoration: none
 }
 
+.fabell{
+    position: absolute;
+    width: 63px;
+    height: 200px;
+    left: 57px;
+    top: 152px;
+    /* background: url(bell (3).png); */
+}
+
+
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
