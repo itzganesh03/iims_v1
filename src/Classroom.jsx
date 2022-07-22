@@ -1,18 +1,11 @@
-import React from "react";
-
-
+import React from 'react'
 
 const Classroom = () => {
-  
-
   return (
-    <>
-    <h1> Classroom Page</h1>
-      </>
+    <div>
       
+    </div>
   )
 }
 
-
-
-export default Classroom;
+export default Classroom
