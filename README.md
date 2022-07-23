@@ -1,4 +1,4 @@
-# iims_v1_Master_branch
+# iims_v1_Master_Branch.
 This project was bootstrapped with [Create React App](https://github.com/itzganesh03/React-Responsive-Mobile-View.git).
 ## Live Demo Link:- https://iims-dypiu.netlify.app/ {MasterBranch}
 
