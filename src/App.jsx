@@ -1,17 +1,24 @@
 import React, { useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import Home from "./Home";
-import Classroom from "./Classroom";
-import Exam from "./Exam";
-import Calender from "./Calender";
-import Faculty from "./Faculty";
+import Home from "./pages/Home";
+import Classroom from "./pages/Classroom";
+import Exam from "./pages/Exam";
+import Calender from "./pages/Calender";
+import Faculty from "./pages/Faculty";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import LostandFound from "./LostandFound";
+import LostandFound from "./pages/LostandFound";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Loginuser from "./Loginuser";
+import Loginuser from "./pages/Loginuser";
 import Bluebar from "./Bluebar";
+
+
+// Kaiff Work Start
+
+
+// Kaiff work End
+
 
 
 //Start Preloader for Welcome Screen
@@ -25,14 +32,24 @@ const App = () => {
     }, 3000);
   }
   //End Preloader for Welcome Screen
+
+
+ 
+  // Home Login Start
+  
+
+
+  // Home Login End
+
   return (
     !loading && (
     <>
+      {/* ............................................................ */}
       <Bluebar/>
-      <Navbar />
+      <Navbar/>
       <Switch>
       <Route exact path="/" component={Home} />
-        <Route exact path="/calender" component={Calender} />
+        <Route exact path="calender" component={Calender} />
         <Route exact path="/classroom" component={Classroom} />
         <Route exact path="/faculty" component={Faculty} />
         <Route exact path="/exam" component={Exam} />
