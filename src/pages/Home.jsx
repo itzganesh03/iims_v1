@@ -1,14 +1,12 @@
 import React from "react";
-import { ReactComponentElement } from "react";
-import { NavLink } from "react-router-dom";
-import "./home.css"
-import web from "../src/images/home-slider1.png";
-import web1 from "../src/images/home-slider2.png";
-import web2 from "../src/images/home-banner-04.jpeg";
-import Selectioncollege from "../src/images/college.jpg";
-import Selectionexamination from "../src/images/examination.jpg";
-import Selectionhelp from "../src/images/help.jpg";
-import Selectiontimetable from "../src/images/timetable.jpg";
+import "../home.css"
+import web from "../images/home-slider1.png";
+import web1 from "../images/home-slider2.png";
+import web2 from "../images/home-banner-04.jpeg";
+import Selectioncollege from "../images/college.jpg";
+import Selectionexamination from "../images/examination.jpg";
+import Selectionhelp from "../images/help.jpg";
+import Selectiontimetable from "../images/timetable.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import { Container, Row, Col,  } from 'react-grid-system';
 const Home = () => {

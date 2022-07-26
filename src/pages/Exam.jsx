@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import ButtonTabs from "./components/buttonTabs/buttonTabs.component";
-import YearTabs from "./components/YearTabs/YearTabs";
-import "./stylesclassroom.css";
-import file from "./assets/file-empty.png"
-import download from './assets/download.png'
+import ButtonTabs from "../components/buttonTabs/buttonTabs.component";
+import YearTabs from "../components/YearTabs/YearTabs";
+import "../stylesclassroom.css";
+import file from "../assets/file-empty.png"
+import download from '../assets/download.png'
 
 import { createRoot } from "react-dom/client";
 
-const Classroom = () => {
+const Exam = () => {
 
   const rootElement = document.getElementById("root");
   const root = createRoot(rootElement);
@@ -62,4 +62,4 @@ const Classroom = () => {
   )
 }
 
-export default Classroom;
+export default Exam;
