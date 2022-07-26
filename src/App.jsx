@@ -13,6 +13,11 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import Loginuser from "./Loginuser";
 import Bluebar from "./Bluebar";
 
+// Kaiff Work Start
+
+
+// Kaiff work End
+
 
 
 //Start Preloader for Welcome Screen
@@ -27,6 +32,8 @@ const App = () => {
   }
   //End Preloader for Welcome Screen
 
+
+ 
   // Home Login Start
   
 
@@ -36,7 +43,7 @@ const App = () => {
   return (
     !loading && (
     <>
-      
+      {/* ............................................................ */}
       <Bluebar/>
       <Navbar/>
       <Switch>
