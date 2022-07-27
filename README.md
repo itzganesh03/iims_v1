@@ -1,13 +1,15 @@
-# iims_v1_Temp_branch
+
+# iims_v1_Master_Branch.
+
 This project was bootstrapped with [Create React App](https://github.com/itzganesh03/React-Responsive-Mobile-View.git).
-## Live Demo Link:- https://iims-dypiu.netlify.app/ {TempBranch}
+## Live Demo Link:- https://iims-dypiu.netlify.app/ {MasterBranch}
 
 ## Bootstrap References: https://getbootstrap.com/docs/4.0/utilities/sizing/
 
 ## Available Scripts
 
 In the project directory, you can run:
-
+ 
 ### `npm start`
 
 Runs the app in the development mode.<br />
