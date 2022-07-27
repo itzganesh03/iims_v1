@@ -1,5 +1,5 @@
 import React from "react";
-import "../../stylesclassroom.css"
+import "../css/stylesclassroom.css"
 
 const ButtonTabs = ({ onClickHandler, currentTab }) => {
   return (

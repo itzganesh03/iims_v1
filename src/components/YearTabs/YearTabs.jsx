@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../stylesclassroom.css';
+import '../css/stylesclassroom.css';
 
 const YearTabs = ({onClickHandler2, currentTab2}) => {
   return (

@@ -2,7 +2,11 @@ import React from 'react'
 
 const Classroom = () => {
   return (
-    <div>Classroom</div>
+    <div>
+      <h1>
+        Classroom
+      </h1>
+    </div>
   )
 }
 

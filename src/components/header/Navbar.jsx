@@ -1,11 +1,11 @@
 import React from "react";
-import Navlogo from "../src/images/logo.png";
-import UserLogo from "../src/images/user.png";
-import Notifaction from "../src/images/bell.png"
+import Navlogo from './images/logo.png';
+import UserLogo from "./images/user.png";
+import Notifaction from "./images/bell.png"
 import { NavLink } from "react-router-dom";
 // .
 
-import './home.css';
+import '../css/home.css'
 
 
 const Navbar = () => {

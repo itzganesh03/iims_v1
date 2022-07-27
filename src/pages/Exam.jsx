@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ButtonTabs from "../components/buttonTabs/buttonTabs.component";
 import YearTabs from "../components/YearTabs/YearTabs";
-import "../stylesclassroom.css";
+import '../components/css/stylesclassroom.css';
 import file from "../assets/file-empty.png"
 import download from '../assets/download.png'
 
