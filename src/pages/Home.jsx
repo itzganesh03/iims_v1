@@ -1,5 +1,5 @@
 import React from "react";
-import "../home.css"
+import '../components/css/home.css';
 import web from "../images/home-slider1.png";
 import web1 from "../images/home-slider2.png";
 import web2 from "../images/home-banner-04.jpeg";
