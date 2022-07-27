@@ -6,13 +6,12 @@ import Classroom from "./pages/Classroom";
 import Exam from "./pages/Exam";
 import Calender from "./pages/Calender";
 import Faculty from "./pages/Faculty";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./components/header/Navbar";
+import Footer from "./components/header/Footer";
 import LostandFound from "./pages/LostandFound";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Loginuser from "./pages/Loginuser";
-import Bluebar from "./Bluebar";
-
+import Bluebar from "./components/header/Bluebar";
 
 // Kaiff Work Start
 
@@ -49,7 +48,7 @@ const App = () => {
       <Navbar/>
       <Switch>
       <Route exact path="/" component={Home} />
-        <Route exact path="calender" component={Calender} />
+        <Route exact path="/calender" component={Calender} />
         <Route exact path="/classroom" component={Classroom} />
         <Route exact path="/faculty" component={Faculty} />
         <Route exact path="/exam" component={Exam} />
