@@ -1,11 +1,12 @@
 import { useState } from "react";
-import SearchBar from "./components/searchBar/searchBar.component";
-import ButtonTabs from "./components/facultyButtonTabs/facultyButtonTabs.component";
-import FacultyTable from "./components/facultyTable/facultyTable.component";
+import SearchBar from "../components/searchBar/searchBar.component"
+import ButtonTabs from "../components/facultyButtonTabs/facultyButtonTabs.component";
+import FacultyTable from "../components/facultyTable/facultyTable.component";
 
 // import "./styles.css";
+import "../components/css/facultystyles.css"
 
-export default function App() {
+export default function Faculty() {
   const [tab, setTab] = useState("CSE");
   const [searchField, setSearchField] = useState("");
 
@@ -18,7 +19,8 @@ export default function App() {
     setSearchField(searchFieldString);
   };
   return (
-    <div className="App">
+    <div className="faculty">
+    {/* // <div className="faculty"> */}
       {/* Search Bar */}
       <SearchBar
         placeholderText="Enter Faculty Name"

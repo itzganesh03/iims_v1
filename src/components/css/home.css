@@ -4335,7 +4335,6 @@ fieldset:disabled .btn {
 }
 
 .navbar-text {
-    content: "|";
     padding-top: .5rem;
     padding-bottom: .5rem;
     color: var(--bs-navbar-color)

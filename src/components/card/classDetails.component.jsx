@@ -1,4 +1,4 @@
-export default function ClassDetails({ detail }) {
+ export default function ClassDetails({ detail }) {
   const {
     classNumber,
     classType,

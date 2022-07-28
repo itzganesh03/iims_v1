@@ -5,7 +5,7 @@ import "./facultyTable.styles.css";
 import redRadialGradient from "../../assets/red-radial-gradient.png";
 import greenRadialGradient from "../../assets/green-radial-gradient.png";
 
-import facultyData from "../../data/data.js";
+import facultyData from "../../Data/data.js";
 
 export default function Class({ searchField }) {
   const [data, setData] = useState(facultyData);
