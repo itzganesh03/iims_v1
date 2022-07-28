@@ -13,12 +13,12 @@ const Home = () => {
   return (
     <>
         <div>
-          <div classNameName="container-flex">
+          <div className="container-flex">
             <Carousel>
               <Carousel.Item style={{ height: "500px" }}>
                 <img
                   style={{ height: "500px" }}
-                  classNameName="d-block w-100"
+                  className="d-block w-100"
                   src={web}
                 />
                 <Carousel.Caption>
@@ -28,7 +28,7 @@ const Home = () => {
               <Carousel.Item style={{ height: "500px" }}>
                 <img
                   style={{ height: "500px" }}
-                  classNameName="d-block w-100"
+                  className="d-block w-100"
                   src={web1}
                 />
                 <Carousel.Caption>
@@ -38,7 +38,7 @@ const Home = () => {
               <Carousel.Item style={{ height: "500px" }}>
                 <img
                   style={{ height: "500px" }}
-                  classNameName="d-block w-100"
+                  className="d-block w-100"
                   src={web2}
                 />
                 <Carousel.Caption>
@@ -47,6 +47,12 @@ const Home = () => {
               </Carousel.Item>
             </Carousel>
           </div> 
+
+
+
+  
+
+    
          
          <br />
           <Container>

@@ -110,6 +110,84 @@ const Navbar = () => {
                 <NavLink className="navbar-brand" to='/loginuser'>
                 <img src={UserLogo} style={{position: "relative" , margin: "3px" , height: "35px" , width: "35px" }}/>
                </NavLink>
+               {/*.....................................................................................  */}
+
+          {/* <span className="separator"></span>
+
+<div id="userbox" className="userbox">
+
+  <a href="#" data-toggle="dropdown">
+
+    <figure className="profile-picture">
+
+      <img src="#" alt="user-image" class="img-circle" height="35"/>
+
+    </figure>
+
+  </a>
+
+  <div className="dropdown-menu">
+
+    <ul className="dropdown-user list-unstyled">
+
+      <li className="user-p-box">
+
+        <div className="dw-user-box">
+
+          <div className="u-img">
+
+            <img src="" alt="user"/>
+
+          </div>
+
+          <div className="u-text">
+
+            <h4>Demo</h4>
+
+            <p className="text-muted">Demo</p>
+
+            <a href="#" class="btn btn-danger btn-xs"><i class="fas fa-sign-out-alt"></i> LogOut</a>
+
+          </div>
+
+        </div>
+
+      </li>
+
+      <li role="separator" className="divider"></li>
+
+      <li><a href="#"><i className="fas fa-user-shield"></i> </a></li>
+
+      <li><a href="#"><i className="fas fa-mars-stroke-h"></i> </a></li>
+
+      <li><a href="#"><i className="far fa-envelope"></i> </a></li>
+
+     
+
+        <li role="separator" className="divider"></li>
+
+        <li><a href="#"><i className="fas fa-toolbox"></i> </a></li>
+
+      <?php endif; ?>
+
+      <?php if(get_permission('school_settings', 'is_view') && !is_superadmin_loggedin()):?>
+
+        <li role="separator" class="divider"></li>
+
+        <li><a href="<?php echo base_url('settings/school');?>"><i class="fas fa-school"></i> <?php echo translate('school_settings');?></a></li>
+
+      <?php endif; ?>
+
+      <li role="separator" class="divider"></li>
+
+      <li><a href="<?php echo base_url('authentication/logout');?>"><i class="fas fa-sign-out-alt"></i> <?php echo translate('logout');?></a></li>
+
+    </ul>
+
+  </div>
+ */}
+
+               {/* ..................................................................................... */}
                     </li>
                   </ul>
                 </div>
