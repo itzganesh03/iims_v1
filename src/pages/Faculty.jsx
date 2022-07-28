@@ -1,13 +1,35 @@
-import React from 'react'
+import { useState } from "react";
+import SearchBar from "./components/searchBar/searchBar.component";
+import ButtonTabs from "./components/facultyButtonTabs/facultyButtonTabs.component";
+import FacultyTable from "./components/facultyTable/facultyTable.component";
 
-const Faculty = () => {
+// import "./styles.css";
+
+export default function App() {
+  const [tab, setTab] = useState("CSE");
+  const [searchField, setSearchField] = useState("");
+
+  const handleClick = (btnName) => {
+    setTab(btnName);
+  };
+
+  const onSearchChange = (e) => {
+    const searchFieldString = e.target.value.toLowerCase();
+    setSearchField(searchFieldString);
+  };
   return (
-    <div>
-        <h1>
-        Faculty Page
-        </h1>
-    </div>
-  )
-}
+    <div className="App">
+      {/* Search Bar */}
+      <SearchBar
+        placeholderText="Enter Faculty Name"
+        handleOnChange={onSearchChange}
+      />
 
-export default Faculty
+      {/* Button Tabs */}
+      <ButtonTabs onClickHandler={handleClick} currentTab={tab} />
+
+      {/* Classes */}
+      <FacultyTable searchField={searchField} />
+    </div>
+  );
+}
