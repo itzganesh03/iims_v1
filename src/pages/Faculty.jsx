@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import SearchBar from "../components/searchBar/searchBar.component"
 import ButtonTabs from "../components/facultyButtonTabs/facultyButtonTabs.component";
