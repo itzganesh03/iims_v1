@@ -1,3 +1,4 @@
+import React from "react";
 import "./facultyButtonTabs.styles.css";
 
 const ButtonTabs = ({ onClickHandler, currentTab }) => {
