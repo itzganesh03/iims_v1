@@ -12772,6 +12772,14 @@ fieldset:disabled .btn {
     box-shadow: -9px 14px 27px 10px rgba(0, 0, 0, 0.25);
 }
 
+.home-buttons {
+    display: grid;
+    width: 250px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
 .aboutText {
     float: left;
     width: 60%;

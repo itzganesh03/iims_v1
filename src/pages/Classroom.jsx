@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import ButtonTabs from '../components/classroomTabs/classroomTabs.component';
 import Class from "../components/class/class.component";
