@@ -39,10 +39,14 @@ const Exam = () => {
       <div className='file-section-kaiff'>
         <img src={file} className="file-look-kaiff" alt={'empty-file'} />
         <div>
-          <div className='label-box--kaiff'>
+          <div className='label-box-kaiff'>
             <button className="open-btn-kaiff">Open Image</button>
             <h5 className="label-text-kaiff">Unit Test 2022 B.Tech(Ai)</h5>
-            <img src={download} className="download-img-kaiff" alt={'download'} />
+            <a
+            href=""
+            type="download">
+              <img src={download} className="download-img-kaiff" alt={'download'} />
+            </a> <br />
           </div>
         </div>
       </div>
@@ -52,7 +56,11 @@ const Exam = () => {
           <div className='label-box-kaiff'>
             <button className="open-btn-kaiff">Open Image</button>
             <h5 className="label-text-kaiff">Unit Test 2022 B.Tech(Ai)</h5>
-            <img src={download} className="download-img-kaiff" alt={'download'} /> <br />
+            <a
+            href=""
+            type="download">
+              <img src={download} className="download-img-kaiff" alt={'download'} />
+            </a> <br />
           </div>
         </div>
       </div>
