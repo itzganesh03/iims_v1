@@ -4,7 +4,7 @@ import "../components/css/home.css";
 import web from "../images/home-slider1.png";
 import web1 from "../images/home-slider2.png";
 import web2 from "../images/home-banner-04.jpeg";
-// import Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-bootstrap/Carousel";
 import Alert from 'react-bootstrap/Alert';
 import Accordion from 'react-bootstrap/Accordion';
 import { Container, Row, Col } from "react-grid-system";
@@ -12,16 +12,21 @@ import classroomsvg from "../assets/classroom.svg";
 import facultysvg from "../assets/faculty.svg";
 import examsvg from "../assets/exam.svg";
 import helpdesksvg from "../assets/help-desk.svg";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Carousel } from 'react-responsive-carousel';
+// import AwesomeSlider from 'react-awesome-slider';
+// import 'react-awesome-slider/dist/styles.css';
 
 const Home = () => {
+  
+  
   return (
     <>
+    
 
-        <div>
+        {/* <div>
           <div className="container-flex">
-          <Carousel autoPlay>
+          <Carousel autoPlay >
     <div>
       <img alt="" src={web} />
       
@@ -36,11 +41,11 @@ const Home = () => {
     </div>
     
   </Carousel>
+</div> */}
 
 
 
-
-            {/* <Carousel>
+            <Carousel>
             <Carousel.Item style={{ height: "500px" }}>
               <img
                 style={{ height: "500px" }}
@@ -71,8 +76,8 @@ const Home = () => {
                 <h3>Third Demo</h3>
               </Carousel.Caption>
             </Carousel.Item>
-          </Carousel> */}
-          </div> 
+          </Carousel>
+         
 
 
 
@@ -188,13 +193,13 @@ const Home = () => {
         D Y PATIL INTERNATONAL UNIVERSITY
         </p>
         <br />
-        {/* <Container style={{maskImage:'100px'}}>
+        <Container style={{overflow:"hidden", marginLeft:"45px", width:'auto'}}>
         <a href="https://www.google.com/maps/dir/18.648061,73.7595417/dypiu/
                  @18.6471867,73.758695,18z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!
                  1s0x3bc2b9f02f4b8f47:0x994b7c247d09fde!2m2!1d73.7592455!2d18.6459923"> 
                  <img src={Map} style={{width:"800px", padding: "0px" , position: "relative"}} alt='imagem' title='Map_Link' />
                  </a>
-        </Container> */}
+        </Container>
       </div>
 
       
@@ -216,7 +221,7 @@ const Home = () => {
         {/* blog */}
 
         {/* blog End */}
-      </div>
+      
     </>
   );
 };
