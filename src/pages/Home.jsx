@@ -1,6 +1,7 @@
 import React from "react";
 import Map from "../assets/map.jpg"
 import "../components/css/home.css";
+import VCimage from "../assets/vc-image.png"
 import web from "../images/home-slider1.png";
 import web1 from "../images/home-slider2.png";
 import web2 from "../images/home-banner-04.jpeg";
@@ -12,39 +13,14 @@ import classroomsvg from "../assets/classroom.svg";
 import facultysvg from "../assets/faculty.svg";
 import examsvg from "../assets/exam.svg";
 import helpdesksvg from "../assets/help-desk.svg";
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { Carousel } from 'react-responsive-carousel';
-// import AwesomeSlider from 'react-awesome-slider';
-// import 'react-awesome-slider/dist/styles.css';
+
 
 const Home = () => {
   
   
   return (
     <>
-    
-
-        {/* <div>
-          <div className="container-flex">
-          <Carousel autoPlay >
     <div>
-      <img alt="" src={web} />
-      
-    </div>
-    <div>
-      <img alt="" src={web1} />
-      
-    </div>
-    <div>
-      <img alt="" src={web2} />
-      
-    </div>
-    
-  </Carousel>
-</div> */}
-
-
-
             <Carousel>
             <Carousel.Item style={{ height: "500px" }}>
               <img
@@ -77,14 +53,11 @@ const Home = () => {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-         
+          </div>
+{/*.......................................................................................................... */}
 
+        {/* short-cute Start */}
 
-
-  
-
-    
-         
          <br />
           <Container style={{MozMarginStart:'5px', MozMarginEnd:'5px'}}>
           <Row>
@@ -124,10 +97,13 @@ const Home = () => {
           </Row>
         </Container>
         <br />
-          
-          {/* <h4 style={{marginInlineStart:'700px', marginInlineEnd:'700px'}}> VC Sir Photo</h4> */}
-
+          {/* short-cute End */}
+        
         <br />
+
+{/*...................................................................................................................... */}
+
+        {/* Alert Description Start */}
 
         <Alert variant="secondary" style={{marginInlineEnd:"70px", marginInlineStart:'70px', borderRadius:'15px'}} >
       <Alert.Heading style={{fontSize:'22px', fontWeight:'800', fontFamily:'Inter', 
@@ -141,11 +117,19 @@ const Home = () => {
     </Alert>
     <br />
 
+    {/* Alert Description End */}
+
+{/*................................................................................................................ */}
+
     {/* VC image Start */}
+  
 
-
+      <img Src={VCimage} style={{width:'80%', marginLeft:'10%'}}></img>
+      <br />
 
     {/* VC image End */}
+
+{/*...................................................................................................................... */}
 
     {/* drop bar Start */}
     <Accordion defaultActiveKey="1" style={{marginInlineEnd:"70px", marginInlineStart:'70px', borderRadius:'15px' }}>
@@ -166,7 +150,7 @@ const Home = () => {
       </Accordion.Item>
       </Accordion>
       <br />
-      <Accordion style={{marginInlineEnd:"70px", marginInlineStart:'70px', paddingBottom:'5rem', borderRadius:'15px'}}>
+      <Accordion style={{marginInlineEnd:"70px", marginInlineStart:'70px', paddingBottom:'5rem', borderRadius:'15px', colorAdjust:'red'}}>
       <Accordion.Item eventKey="0" >
         <Accordion.Header style={{fontWeight:'bold'}}>Life of DYPIU</Accordion.Header>
         <Accordion.Body>
@@ -186,6 +170,7 @@ const Home = () => {
 
       </Accordion>
       <br />
+{/*................................................................................................................................................................... */}
 
       <div>
         <p style={{marginLeft:'4rem', fontSize:'25px', fontWeight:'600', fontFamily:'Inter', 
@@ -193,13 +178,14 @@ const Home = () => {
         D Y PATIL INTERNATONAL UNIVERSITY
         </p>
         <br />
-        <Container style={{overflow:"hidden", marginLeft:"45px", width:'auto'}}>
+        <Container>
         <a href="https://www.google.com/maps/dir/18.648061,73.7595417/dypiu/
                  @18.6471867,73.758695,18z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!
                  1s0x3bc2b9f02f4b8f47:0x994b7c247d09fde!2m2!1d73.7592455!2d18.6459923"> 
-                 <img src={Map} style={{width:"800px", padding: "0px" , position: "relative"}} alt='imagem' title='Map_Link' />
+                 <img src={Map} style={{width:"100%", height:'50%' , padding: "0px" , position: "relative", marginLeft:'-13%', overflow:'hidden', borderRadius:'2%'}} alt='map_redirect' title='Map_Link' />
                  </a>
         </Container>
+        <br />
       </div>
 
       
