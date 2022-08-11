@@ -14,10 +14,10 @@ import Loginuser from "./pages/Loginuser";
 import Bluebar from "./components/header/Bluebar";
 
 
-// Kaiff Work Start
+// Kaiff Work Start..
 
 
-// Kaiff work End
+// Kaiff work End..
 
 
 
@@ -31,15 +31,15 @@ const App = () => {
       setLoading(false);
     }, 3000);
   }
-  //End Preloader for Welcome Screen
+  //End Preloader for Welcome Screen..
 
 
  
-  // Home Login Start
+  // Home Login Start..
   
 
 
-  // Home Login End
+  // Home Login End..
 
   return (
     !loading && (
